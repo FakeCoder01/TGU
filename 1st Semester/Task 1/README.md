@@ -80,7 +80,7 @@ end.
 ```
 
 #### Результат
-[Result of Second Program](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/2.png)
+[Result of Second Program](https://github.com/FakeCoder01/TGU/blob/main/1st%20Semester/Task%201/images/2.png)
 
 
 3. ### Даны координаты центра и радиус круга. Определите, лежит ли точка с заданными координатами внутри круга (все значения вещественные).
