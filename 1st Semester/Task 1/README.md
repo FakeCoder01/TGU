@@ -1,7 +1,13 @@
+<!-- Headers -->
+
 # Упражнение по программированию на языке Паскаль
 
 | <a href="#даны-2-целых-числа-вычислите-их-произведение">1</a> | <a href="#даны-3-числа-выведите-числа-в-порядке-возрастания">2</a> | <a href="#даны-координаты-центра-и-радиус-круга-определите-лежит-ли-точка-с-заданными-координатами-внутри-круга-все-значения-вещественные">3</a> | <a href="#без-деления-найдите-целую-часть-частного-и-остаток-от-деления-двух-заданных-целых-чисел">4</a> | <a href="#поменяйте-местами-последний-максимальный-и-первый-минимальный-элемент-массива-и-выведите-весь-массив">5</a> |
 |:---|:---|:---|:---|:---|
+
+
+
+<!-- Answer Starts From Here -->
 
 ## I. Основы
 
@@ -10,7 +16,7 @@
 ### Отвечать :
 
 #### Код
-```
+```pascal
 
 program ProductOfTwoNumbers;
 var
@@ -39,7 +45,7 @@ end.
 ### Отвечать :
 
 #### Код
-```
+```pascal
 
 program ThreeIntegersInAscendingOrder;
 var
@@ -80,7 +86,7 @@ end.
 ```
 
 #### Результат
-![Result of Second Program](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/2.png)
+![Result of Second Program](images/2.png)
 
 
 3. ### Даны координаты центра и радиус круга. Определите, лежит ли точка с заданными координатами внутри круга (все значения вещественные).
@@ -88,7 +94,7 @@ end.
 ### Отвечать :
 
 #### Код
-```
+```pascal
 
 program IfPointExixtsInACircle;
 var
@@ -115,8 +121,8 @@ end.
 ```
 
 #### Результат
-![Result of Third Program (1)](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/3-1.png)
-![Result of Third Program (2)](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/3-2.png)
+![Result of Third Program (1)](images/3-1.png)
+![Result of Third Program (2)](images/3-2.png)
 
 
 ## III. Циклы
@@ -126,7 +132,7 @@ end.
 ### Отвечать :
 
 #### Код
-```
+```pascal
 
 program IntegerQuotientAndRemainder;
 
@@ -156,7 +162,7 @@ end.
 ```
 
 #### Результат
-![Result of Fourth](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/4.png)
+![Result of Fourth](images/4.png)
 
 
 ## IV. Массивы
@@ -166,11 +172,10 @@ end.
 ### Отвечать :
 
 #### Код
+```pascal
 
-
-```
 
 ```
 
 #### Результат
-![Result of fifth](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/5.png)
+![Result of fifth](images/5.png)
