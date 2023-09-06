@@ -29,7 +29,7 @@ end.
 ```
 
 #### Результат
-[Result of First Program](images/1.png)
+[Result of First Program](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/1.png)
 
 
 ## II. Ветвления
@@ -80,7 +80,7 @@ end.
 ```
 
 #### Результат
-[Result of Second Program](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/1.png)
+[Result of Second Program](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/2.png)
 
 
 3. ### Даны координаты центра и радиус круга. Определите, лежит ли точка с заданными координатами внутри круга (все значения вещественные).
@@ -115,8 +115,8 @@ end.
 ```
 
 #### Результат
-[Result of Third Program (1)](/1st%20Semester/Task%201/images/3-1.png)
-[Result of Third Program (1)](/1st%20Semester/Task%201/images/3-2.png)
+[Result of Third Program (1)](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/3-1.png)
+[Result of Third Program (2)](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/3-2.png)
 
 
 ## III. Циклы
@@ -156,7 +156,7 @@ end.
 ```
 
 #### Результат
-[Result of Fourth](/1st%20Semester/Task%201/images/4.png)
+[Result of Fourth](https://raw.githubusercontent.com/FakeCoder01/TGU/main/1st%20Semester/Task%201/images/4.png)
 
 
 ## IV. Массивы
