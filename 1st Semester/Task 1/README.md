@@ -29,7 +29,7 @@ end.
 ```
 
 #### Результат
-[Result of First Program](/1st%20Semester/Task%201/images/1.png)
+[Result of First Program](images/1.png)
 
 
 ## II. Ветвления
