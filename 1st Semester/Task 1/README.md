@@ -174,6 +174,92 @@ end.
 #### Код
 ```pascal
 
+program MaxMinSwap;
+
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils;
+
+function find_max_element(arr: array of Integer; n: Integer): Integer;
+var
+  i, pos: Integer;
+  maxVal: Integer;
+begin
+  pos := 0;
+  maxVal := arr[0];
+  for i := 0 to n-1 do
+  begin
+    if arr[i] > maxVal then
+    begin
+      maxVal := arr[i];
+      pos := i;
+    end;
+  end;
+  find_max_element := pos;
+end;
+
+function find_min_element(arr: array of Integer; n: Integer): Integer;
+var
+  i, pos: Integer;
+  minVal: Integer;
+begin
+  pos := 0;
+  minVal := arr[0];
+  for i := 0 to n-1 do
+  begin
+    if arr[i] < minVal then
+    begin
+      minVal := arr[i];
+      pos := i;
+    end;
+  end;
+  find_min_element := pos;
+end;
+
+procedure swap_max_min_element(var arr: array of Integer; maxElementPos, minElementPos: Integer);
+var
+  temp: Integer;
+begin
+  temp := arr[maxElementPos];
+  arr[maxElementPos] := arr[minElementPos];
+  arr[minElementPos] := temp;
+end;
+
+var
+  i, n: Integer;
+  arr: array of Integer;
+  maxElementPos, minElementPos: Integer;
+
+begin
+  write('Enter the size of the array : ');
+  readln(n);
+  SetLength(arr, n);
+  
+  
+  for i := 0 to n-1 do
+  begin
+    write('Enter the ', i + 1 ,'th element : ');
+    readln(arr[i]);
+  end;
+
+
+  maxElementPos := find_max_element(arr, n);
+  writeln('The maximum element: ', arr[maxElementPos]);
+
+  minElementPos := find_min_element(arr, n);
+  writeln('The minimum element: ', arr[minElementPos]);
+
+  swap_max_min_element(arr, maxElementPos, minElementPos);
+
+
+  write('The array after swap is: ');
+  for i := 0 to n-1 do
+  begin
+    write(arr[i], ' ');
+  end;
+  writeln;
+end.
 
 ```
 
