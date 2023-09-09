@@ -176,11 +176,6 @@ end.
 
 program MaxMinSwap;
 
-{$APPTYPE CONSOLE}
-
-uses
-  SysUtils;
-
 function find_max_element(arr: array of Integer; n: Integer): Integer;
 var
   i, pos: Integer;
@@ -190,7 +185,7 @@ begin
   maxVal := arr[0];
   for i := 0 to n-1 do
   begin
-    if arr[i] > maxVal then
+    if arr[i] >= maxVal then
     begin
       maxVal := arr[i];
       pos := i;
