@@ -28,5 +28,7 @@ end.
 
 ```
 
+### Output
+![Fibonacci Result](images/1.png)
 
 
